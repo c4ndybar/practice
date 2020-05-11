@@ -4,7 +4,7 @@
   "description": "some practice code",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w **/*Test.js"
+    "test": "mocha -w -grep sut **/*Test.js"
   },
   "author": "",
   "license": "ISC",
